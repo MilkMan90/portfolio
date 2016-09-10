@@ -1,0 +1,273 @@
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
+header{
+  position: fixed;
+  background-color: #7DA9D9;
+  width: 100%;
+  height: 50px;
+  z-index: 1;
+}
+
+h1{
+  display: inline-block;
+  text-align: center;
+  margin-left: 5px;
+  text-indent: 20px;
+  color: white;
+  margin-top: 5px;
+  z-index: 2;
+}
+
+h2{
+  font-size: 60px;
+}
+
+h1 img{
+  height: 40px;
+  width: 40px;
+}
+
+nav{
+  float: right;
+}
+
+nav li{
+  display: inline-block;
+  padding: 17px;
+}
+
+nav li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav li:hover{
+  background-color: #3B9686;
+  color: white;
+  cursor: pointer;
+}
+
+main{
+  position: relative;
+  padding-top: 45px;
+}
+
+#hero{
+  background: url('./imgs/craterlake.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+#hero h2{
+  font-size: 60px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+#hero img{
+  margin-bottom: 20px;
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 100px;
+}
+
+h3{
+  font-size: 30px;
+  margin-bottom: 100px;
+}
+
+#tagline{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#tagline p{
+  margin: 30px;
+  margin-bottom: 50px;
+}
+
+#proj-div{
+  margin-top: 80px;
+  margin-bottom: 60px;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+}
+
+footer{
+  position: absolute;
+  width:100%;
+  text-align: center;
+  background-color: slategray;
+  height: 60px;
+  margin-top: 50px;
+}
+
+footer a{
+  margin: 25px;
+  cursor: pointer;
+}
+
+#footerlinks{
+  padding-top: 12px;
+}
+
+#about{
+  text-align: center;
+}
+
+#story-img{
+  background: url('./imgs/story.jpg') no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 350px;
+  margin-bottom: 20px;
+}
+
+#story-img h2{
+  font-size: 60px;
+  margin-top: 120px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #000000;
+}
+
+#about p{
+  margin-bottom: 30px;
+  text-align: center;
+  margin-left: 25%;
+  margin-right:25%;
+  line-height: 25px;
+}
+
+#experience-img{
+  background: url('./imgs/kuka.jpg') no-repeat;
+  background-size: cover;
+  background-image: image();
+  text-align: center;
+  color: white;
+  padding-top: 100px;
+  padding-bottom: 300px;
+  margin-bottom: 20px;
+}
+
+#experience-img h2{
+  font-size: 60px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-shadow: 1px 4px #000000;
+}
+
+#job_title{
+  font-size: 24px;
+  font-style: bold;
+}
+
+#education-img{
+  background: url('./imgs/Binghamton.jpg') no-repeat;
+  background-size: cover;
+  background-image: image();
+  text-align: center;
+  color: white;
+  padding-top: 40px;
+  padding-bottom: 300px;
+  margin-bottom: 20px;
+}
+
+#education-img h2{
+  font-size: 60px;
+  margin-top: 110px;
+  margin-bottom: 40px;
+  text-shadow: 2px 2px #000000;
+}
+
+#education img{
+  height: 100px;
+  width: 305px;
+  margin-bottom: 20px;
+}
+
+#courses{
+  margin-left: 20%;
+  margin-right: 20%;
+  line-height: 30px;
+}
+#courses li{
+  display: inline-block;
+}
+
+#SDP{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+h4{
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+#sdp-video{
+  width:560px;
+  height:315px;
+  margin-bottom: 40px;
+
+}
+
+
+.projects{
+  display: inline-block;
+  margin-bottom:50px;
+  width: calc(50%-10px);
+  margin-right: 70px;
+  margin-left: 100px;
+  text-align: center;
+}
+
+.projects img{
+  height: 300px;
+}
+#num-guesser-ss{
+  height:400px;
+}
+
+#project {
+  text-align: center;
+}
+
+#proj-tools{
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 300px;
+  text-align: left;
+  text-decoration: none;
+}
+
+#proj-tools h4{
+  font-size: 50px;
+  text-decoration: none;
+}
+
+#proj-tools li{
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#project img{
+  vertical-align: middle;
+  display: inline-block;
+  margin: 25px;
+}
+
+
+
+.project_h2{
+  margin:40px;
+}
